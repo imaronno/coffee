@@ -1,0 +1,50 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(24, 24, 24);
+}
+
+.menu {
+    display: flex;
+    color: white;
+    background-color: rgba(29, 29, 29, 0.849);
+    padding: 15px;
+    gap: 2%;
+    justify-content: right;
+    text-decoration: none;
+    font-size: 12px;
+    border: 40px;
+    border-color: rgba(0, 0, 255, 0.23);
+}
+
+.half-width {
+    width: 40%;
+    padding-left: 5%;
+    margin-top: 9%;
+    color: white;
+}
+
+.golden-color {
+    color: goldenrod;
+    font-size: 24px;
+}
+
+.button-1 {
+    text-decoration: none;
+    background-image: linear-gradient(tomato, tomato);
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 100px;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(images/coffe-images/background.png.jpg);
+    background-repeat: initial;
+}
+
+.img-coffee {
+    margin-top: 8%;
+    margin-right: 19%;
+}
